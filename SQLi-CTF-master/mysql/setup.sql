@@ -127,7 +127,7 @@ CREATE TABLE `search_engine` (
 
 LOCK TABLES `search_engine` WRITE;
 /*!40000 ALTER TABLE `search_engine` DISABLE KEYS */;
-INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=goo&aqs=chrome.0.46i131i199i433i465i512j69i59j69i57j69i59j0i131i433i512l2j69i59j69i60.823j0j7&sourceid=chrome&ie=UTF-8'),('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com');
+INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com'),('FISA','The best cyber academy','https://www.fisa.pro/'),('First','First system integrator','https://www.first.al/');
 /*!40000 ALTER TABLE `search_engine` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -182,7 +182,7 @@ CREATE TABLE `search_engine` (
 
 LOCK TABLES `search_engine` WRITE;
 /*!40000 ALTER TABLE `search_engine` DISABLE KEYS */;
-INSERT INTO `search_engine` VALUES ('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com'),('Corb3nik\'s Blog','Greatest writeups ever','http://corb3nik.github.io/');
+INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com'),('FISA','The best cyber academy','https://www.fisa.pro/'),('First','First system integrator','https://www.first.al/');
 /*!40000 ALTER TABLE `search_engine` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -237,7 +237,7 @@ CREATE TABLE `search_engine` (
 
 LOCK TABLES `search_engine` WRITE;
 /*!40000 ALTER TABLE `search_engine` DISABLE KEYS */;
-INSERT INTO `search_engine` VALUES ('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com'),('Corb3nik\'s Blog','Greatest writeups ever','http://corb3nik.github.io/');
+INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com'),('FISA','The best cyber academy','https://www.fisa.pro/'),('First','First system integrator','https://www.first.al/');
 /*!40000 ALTER TABLE `search_engine` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -292,7 +292,7 @@ CREATE TABLE `search_engine` (
 
 LOCK TABLES `search_engine` WRITE;
 /*!40000 ALTER TABLE `search_engine` DISABLE KEYS */;
-INSERT INTO `search_engine` VALUES ('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com'),('Corb3nik\'s Blog','Greatest writeups ever','http://corb3nik.github.io/');
+INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com'),('FISA','The best cyber academy','https://www.fisa.pro/'),('First','First system integrator','https://www.first.al/');
 /*!40000 ALTER TABLE `search_engine` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -346,7 +346,7 @@ CREATE TABLE `motivation` (
 
 LOCK TABLES `motivation` WRITE;
 /*!40000 ALTER TABLE `motivation` DISABLE KEYS */;
-INSERT INTO `motivation` VALUES (0,'DO IT'),(1,'JUST DO IT'),(2,'DON\'T LET YOUR DREAMS BE DREAMS'),(3,'NOTHING IS IMPOSSIBLE'),(4,'STOP GIVING UP'),(5,'MAKE YOUR DREAMS COME TRUE');
+INSERT INTO `motivation` VALUES (0,'DO IT'),(1,'THINK DIFFERENT'),(2,'DON\'T LET YOUR DREAMS BE DREAMS'),(3,'THINK OUT OF THE BOX'),(4,'STOP GIVING UP'),(5,'MAKE YOUR DREAMS COME TRUE');
 /*!40000 ALTER TABLE `motivation` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1351,7 +1351,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('admin','password'),('john cena','rulz'),('Guillaume Pillot','Allo je suis francais');
+INSERT INTO `users` VALUES ('admin','password'),('fisa','fis@'),('first','f!rst');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
