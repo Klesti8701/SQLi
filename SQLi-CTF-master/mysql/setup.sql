@@ -42,7 +42,7 @@ CREATE TABLE `secrets` (
 
 LOCK TABLES `secrets` WRITE;
 /*!40000 ALTER TABLE `secrets` DISABLE KEYS */;
-INSERT INTO `secrets` VALUES ('Corb3nik_the_admin','FLAG-8a94da5963c1634274dcaad6f4c09349');
+INSERT INTO `secrets` VALUES ('F1$a','FISA-8a94da5963c1634274dcaad6f4c09349');
 /*!40000 ALTER TABLE `secrets` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -72,7 +72,7 @@ CREATE TABLE `my_secret_table` (
 
 LOCK TABLES `my_secret_table` WRITE;
 /*!40000 ALTER TABLE `my_secret_table` DISABLE KEYS */;
-INSERT INTO `my_secret_table` VALUES ('FLAG-9c4e69e4cfd239d4e16ba0c189f8d643');
+INSERT INTO `my_secret_table` VALUES ('FISA-9c4e69e4cfd239d4e16ba0c189f8d643');
 /*!40000 ALTER TABLE `my_secret_table` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -95,7 +95,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('administrator','this is a very complexe password! So proud :)');
+INSERT INTO `users` VALUES ('administrator','Nese do ish@ i thje$hte d0 te gjindesh@ nga te gjithe :P');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -150,7 +150,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('Administrator','FLAG-dad50ccc5b4e578f4ac050cd9fc39175');
+INSERT INTO `users` VALUES ('Administrator','FISA-dad50ccc5b4e578f4ac050cd9fc39175');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -205,7 +205,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('Administrator','FLAG-84ae607e7e319568eaa0f9f991cf49f1');
+INSERT INTO `users` VALUES ('Administrator','FISA-84ae607e7e319568eaa0f9f991cf49f1');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -260,7 +260,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('Administrator','FLAG-26184a4137f2d771dba7cf239fc064e5');
+INSERT INTO `users` VALUES ('Administrator','FISA-26184a4137f2d771dba7cf239fc064e5');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -315,7 +315,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('Administrator','FLAG-d4mn_Y0ur3_G3tt1ng_G00d_4t_Th15');
+INSERT INTO `users` VALUES ('Administrator','FISA-d4mn_Y0ur3_G3tt1ng_G00d_4t_Th15');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
