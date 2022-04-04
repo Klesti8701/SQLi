@@ -127,7 +127,7 @@ CREATE TABLE `search_engine` (
 
 LOCK TABLES `search_engine` WRITE;
 /*!40000 ALTER TABLE `search_engine` DISABLE KEYS */;
-INSERT INTO `search_engine` VALUES ('Corb3nik\'s Blog','Greatest writeups ever','http://corb3nik.github.io/'),('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com');
+INSERT INTO `search_engine` VALUES ('Google','Greatest search engine','https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=goo&aqs=chrome.0.46i131i199i433i465i512j69i59j69i57j69i59j0i131i433i512l2j69i59j69i60.823j0j7&sourceid=chrome&ie=UTF-8'),('Ringzer0team.com','RingZer0 Team\'s online CTF offers you tons...','http://ringzer0team.com'),('Yahoo','Free realistic account credentials','https://yahoo.com');
 /*!40000 ALTER TABLE `search_engine` ENABLE KEYS */;
 UNLOCK TABLES;
 
