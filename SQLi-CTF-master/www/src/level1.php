@@ -33,7 +33,7 @@ if (isset($_POST['session_id'])) {
     <body>
         <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
             <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand" href="#">Secret Diary</a>
+            <div class="navbar-header"><a class="navbar-brand" href="#">TO DO</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
             </div>
@@ -48,7 +48,7 @@ if (isset($_POST['session_id'])) {
         <div class="container-fluid">
 		<?php
 		if (isset($_POST['secret'])) {
-			echo '<div class="alert alert-success" role="alert">Secret added successfully. You can view your secrets with the following session ID : '. session_id() .'</div>';
+			echo '<div class="alert alert-success" role="alert">Task added successfully. You can view your tasks with the following session ID : '. session_id() .'</div>';
 		}
 		?>
 		<div class="row">
@@ -58,7 +58,7 @@ if (isset($_POST['session_id'])) {
 					<div class="input-group">
 					  <input type="text" name="session_id" class="form-control" placeholder="Your session ID" aria-describedby="basic-addon2">
 					  <span class="input-group-btn">
-						<button class="btn btn-default" type="submit">Get your secrets!</button>
+						<button class="btn btn-default" type="submit">View you tasks!</button>
 					 </span>
 					</div>
 				</form>
@@ -67,9 +67,9 @@ if (isset($_POST['session_id'])) {
 				<form method="POST" action="/level1.php">
 
 					<div class="input-group">
-					  <input type="text" name="secret" class="form-control" placeholder="Your secret" aria-describedby="basic-addon2">
+					  <input type="text" name="secret" class="form-control" placeholder="Your task" aria-describedby="basic-addon2">
 					  <span class="input-group-btn">
-						<button class="btn btn-default" type="submit">Add a new secret!</button>
+						<button class="btn btn-default" type="submit">Add a new Task!</button>
 					 </span>
 					</div>
 				</form>
@@ -87,7 +87,7 @@ if (isset($_POST['session_id'])) {
 			<div class="col-md-4"></div>
 			<div class="col-md-4">
 				<div class="panel panel-default">
-				  <div class="panel-heading">Your secrets</div>
+				  <div class="panel-heading">Your tasks</div>
 
 				  <!-- Table -->
 				  <table class="table">
@@ -98,7 +98,7 @@ if (isset($_POST['session_id'])) {
 						echo "<tr><td>" . htmlspecialchars($row['secret']) . "</td></tr>";
 					    }
 					} else {
-						echo "<tr><td>You don't have any secrets yet.</td></tr>";
+						echo "<tr><td>You don't have any task yet.</td></tr>";
 					}
 					?>
 				  </table>
