@@ -7,7 +7,7 @@ error_reporting(0);
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
 
-	// $query = "SELECT flag FROM my_secret_table"; We leave commented code in production because we're cool.
+	// $query = "SELECT flag FROM my_secret_table"; 
  
 	$query = "SELECT username FROM users where username = '" . $_POST['username'] . "' and password = ?";
 
