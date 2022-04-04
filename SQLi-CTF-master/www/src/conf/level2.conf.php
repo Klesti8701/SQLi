@@ -3,7 +3,7 @@
   $username  = 'level2';
   $password = 'level2';
   $database = 'level2';
-  $flag = "FLAG-a1e8c4268f2f673b5df74c953c16969d";
+  $flag = "FISA-a1e8c4268f2f673b5df74c953c16969d";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $database);
