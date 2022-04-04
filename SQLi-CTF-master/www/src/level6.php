@@ -18,8 +18,8 @@ if (isset($_GET['q'])) {
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Gogol Search</title>
- <link rel="stylesheet" href="http://www.goglogo.com/include/goglogo.css" type="text/css" />
+  <title>FISA Search</title>
+ <link rel="stylesheet" href="https://import.cdn.thinkific.com/440725%2Fcustom_site_themes%2Fid%2FwTEtDV5Q4ubz2x79gMiB_FISA%20Logo%20t1.png?width=384&dpr=1/include/goglogo.css" type="text/css" />
   </head>
 
  <body style="margin:0;padding:0;">
@@ -27,7 +27,7 @@ if (isset($_GET['q'])) {
     <br/><br/><br/><br/>
     <div class="content-area">
         <div class="logo">
-	<img src="http://funnylogo.info/logo/Google/White/Gogol.aspx">
+	<img src="https://import.cdn.thinkific.com/440725%2Fcustom_site_themes%2Fid%2FwTEtDV5Q4ubz2x79gMiB_FISA%20Logo%20t1.png?width=384&dpr=1">
         </div>
         <div class="searchBox">
             <table cellspacing="0" cellpadding="0" border="0">
