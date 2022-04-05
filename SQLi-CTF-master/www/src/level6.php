@@ -19,7 +19,7 @@ if (isset($_GET['q'])) {
 <html>
  <head>
   <title>FISA Search</title>
- <img src="https://import.cdn.thinkific.com/440725%2Fcustom_site_themes%2Fid%2FwTEtDV5Q4ubz2x79gMiB_FISA%20Logo%20t1.png?width=384&dpr=1" alt="fisa logo" />
+ <link rel="stylesheet" href="http://www.goglogo.com/include/goglogo.css" type="text/css" />
   </head>
 
  <body style="margin:0;padding:0;">
