@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="container-fluid">
-            <h1 class="text-center">Wlecome to the challenges organized by FISA, can you find all the flags on this SQL injection challenges</h1>
+            <h1>Wlecome to the challenges organized by FISA, can you find all the flags on this SQL injection challenges</h1>
                 <h2> We are providing some help for you leaving the source code can you use it to find the weaknesses of the page?</h2>
         </div>
 
