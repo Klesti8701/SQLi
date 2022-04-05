@@ -23,7 +23,7 @@ if (isset($_GET['q'])) {
 <html>
  <head>
   <title>FISA Search</title>
- <link rel="stylesheet" href="https://import.cdn.thinkific.com/440725%2Fcustom_site_themes%2Fid%2FwTEtDV5Q4ubz2x79gMiB_FISA%20Logo%20t1.png?width=384&dpr=1/include/goglogo.css" type="text/css" />
+ <link rel="stylesheet" href="https://import.cdn.thinkific.com/440725%2Fcustom_site_themes%2Fid%2FwTEtDV5Q4ubz2x79gMiB_FISA%20Logo%20t1.png?width=384&dpr=1" />	 
   </head>
 
  <body style="margin:0;padding:0;">
