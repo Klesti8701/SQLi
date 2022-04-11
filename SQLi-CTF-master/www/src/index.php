@@ -131,9 +131,6 @@
                 <h3 class="panel-title">Level 7</h3>
               </div>
               <div class="panel-body">
-                Wow you must be really good, I have one final challenge for you can you solve it?
-                My teacher has this weird website. I doubt there's any useful information
-                in the database. Maybe we can leak the /etc/passwd file instead?
               </div>
               <div class="panel-footer"><a href="/level7.php" target="_blank" class="btn btn-danger">Seventh challenge</a></div>
             </div>
